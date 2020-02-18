@@ -6,7 +6,7 @@ from tkinter import *
 root = Tk()
 root.title('Currencity Calculator')
 # entry row
-entry = Entry(root, width=60, borderwidth=5)
+entry = Entry(root, width=35, borderwidth=5)
 entry.grid(row=1, column=1, columnspan=4, padx=5, pady=5)
 Label(root, text='Amount:').grid(row=1, column=0, padx=1)
 
